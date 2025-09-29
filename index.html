@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blackwater – Your Discord Pirate Adventure</title>
+  <meta name="description" content="Blackwater – Embark on a pirate adventure on Discord! Complete daily challenges, send voyages, earn doubloons, rum, and XP, and climb the leaderboard.">
+  <meta name="keywords" content="Discord bot, pirate bot, Blackwater, daily challenges, voyages, XP, doubloons, rum">
+  <meta name="author" content="Blackwater Bot Team">
+  <meta name="robots" content="index, follow">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #0b0c10, #1f2833);
+      color: #e0e0e0;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #1f2833;
+      position: relative;
+    }
+    header h1 {
+      font-size: 3rem;
+      color: #66fcf1;
+      margin-bottom: 15px;
+      animation: fadeIn 1s ease forwards;
+      opacity:0;
+      animation-delay:0.2s;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 30px;
+      animation: fadeIn 1s ease forwards;
+      opacity:0;
+      animation-delay:0.5s;
+    }
+    .buttons {
+      animation: fadeIn 1s ease forwards;
+      opacity:0;
+      animation-delay:0.8s;
+    }
+    .buttons a {
+      display:inline-block;
+      margin:10px;
+      padding:15px 35px;
+      border-radius:8px;
+      font-weight:bold;
+      color:#0b0c10;
+      background: linear-gradient(90deg,#45a29e,#66fcf1);
+      transition: 0.3s;
+    }
+    .buttons a:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .buttons a.support {
+      background: transparent;
+      border:2px solid #45a29e;
+      color:#45a29e;
+    }
+    .buttons a.support:hover {
+      background:#45a29e;
+      color:#0b0c10;
+    }
+
+    section.features {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    section.features h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+      color:#66fcf1;
+    }
+    .feature-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .feature {
+      background:#0b0c10aa;
+      border-radius:12px;
+      padding:30px;
+      max-width:250px;
+      flex:1 1 200px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+    .feature h3 { color:#45a29e; margin-bottom:15px; }
+    .feature p { font-size:0.9rem; line-height:1.4; }
+
+    footer {
+      text-align:center;
+      padding:30px 20px;
+      color:#66fcf1;
+      font-size:0.8rem;
+      background:#1f2833;
+    }
+
+    @media (max-width:768px) {
+      header h1 { font-size:2.2rem; }
+      header p { font-size:1rem; }
+      .feature-list { flex-direction: column; gap:20px; }
+    }
+
+    @keyframes fadeIn {
+      from {opacity:0; transform:translateY(20px);}
+      to {opacity:1; transform:translateY(0);}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Blackwater</h1>
+  <p>Set sail on your Discord pirate adventure! Claim Daily Challenges, complete voyages, earn Doubloons, Rum, and XP, and rise to the top of the pirate leaderboard.</p>
+  <div class="buttons">
+    <a href="https://discord.com/oauth2/authorize?client_id=1420176339994022048&permissions=8&integration_type=0&scope=bot">Invite the Bot</a>
+    <a href="https://discord.gg/8mBGt7cdhn" class="support">Join Support Server</a>
+  </div>
+</header>
+
+<section class="features">
+  <h2>Features</h2>
+  <div class="feature-list">
+    <div class="feature">
+      <h3>⚓ Daily Challenges</h3>
+      <p>Complete 3 daily missions and earn XP, Doubloons, and Rum! Build streaks for extra rewards.</p>
+    </div>
+    <div class="feature">
+      <h3>🗺️ Voyages</h3>
+      <p>Send your crew on adventures. Success brings valuable loot and experience for your pirate character.</p>
+    </div>
+    <div class="feature">
+      <h3>💰 Economy & Rewards</h3>
+      <p>Manage your resources, earn doubloons, spend rum, and climb the leaderboards!</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  ⚓ Blackwater – Discord Pirate Adventure
+</footer>
+
+</body>
+</html>
